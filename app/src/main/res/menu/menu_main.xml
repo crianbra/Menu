@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.crianbra.menu.MainActivity">
+    <item
+        android:id="@+id/action_opcion1"
+        android:orderInCategory="100"
+        android:title="@string/opcion1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_opcion2"
+        android:orderInCategory="100"
+        android:title="@string/opcion2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_opcion3"
+        android:orderInCategory="100"
+        android:title="@string/opcion3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/submenu"
+        android:title="Submenu"
+        android:icon="@android:drawable/bottom_bar"
+        tools:ignore="HardcodeText" >
+            <menu>
+                <item
+                    android:id="@+id/action_opcion4"
+                    android:title="Opcion 4"
+                    tools:ignore="HardcodeText" />
+
+                <item
+                    android:id="@+id/action_opcion5"
+                    android:title="Opcion 5"
+                    tools:ignore="HardcodeText" />
+
+                <item
+                    android:id="@+id/action_opcion6"
+                    android:title="Opcion 6"
+                    tools:ignore="HardcodeText" />
+            </menu>
+
+    </item>
+
+
+
+</menu>
